@@ -167,7 +167,8 @@ h2, h3 {
 
 @keyframes slide {
   0% {transform: translate(0);}
-  100% {transform: translate(92VW);}
+  25% {transform: translate(50VW);}
+  100% {transform: translate(0);}
 }
 
 @keyframes slide2 {
