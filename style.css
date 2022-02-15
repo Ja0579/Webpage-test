@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-left: 4rem auto 2rem auto;
+  font-size: 5rem;
+  font-family: 'Sacramento', serif;
+  color: #BB6464;
+  line-height: 2;
+  /* margin: 0 auto; /* TUkaj smo sedaj rekli da bo margin top in bottom 0, left in right pa auto glede na viewerja*/
+}
+
+h2 {
+  font-family: "Permanent Marker", serif;
+  padding-bottom: 10px;
+}
+
+p, h3, .myButton {
+  font-family: "Titillium Web", sans-serif;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 10%;
+  margin: 50px auto 50px auto;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 2VW auto 4VW auto;
+}
+
+h2, h3 {
+  color: #66BFBF;
+}
+
+.skill-row > p, h3 {
+    text-align: left;
+
+}
+
+.circlee {
+  position: relative;
+  width: 12VW;
+  height: 12VW;
+}
+
+.circlee:hover {
+  animation: apple-translate 1s;
+  animation-iteration-count: 1;
+}
+
+.contact-me > h3 {
+  text-align: center;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 0 auto 75px;;
+}
+
+.skills_circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin: 0 2rem 0 auto;
+}
+
+.skills_circlee {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  float: right;
+  margin: 0 auto 0 2rem;
+}
+
+.skills_circle:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: 1;
+}
+
+.skills_circlee:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.top_container > p {
+  font-size: 1.3rem;
+  font-family: "Permanent Marker", serif;
+  color: #BB6464;
+  margin-bottom: 5rem;
+}
+
+.top_container {
+  background-image: linear-gradient(to left, #4FBDBA, #D3DEDC);
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom_container {
+  background-image: linear-gradient(to left, #4FBDBA, #D3DEDC);
+}
+
+.bottom_container > a {
+  color: #219f94; /*219f94  086E7D*/
+  text-decoration: none;
+  font-family: "Titillium Web";
+  font-weight: bold;
+  transition: all 0.35s ease-in;
+}
+.bottom_container > a:hover {
+  color: #072227;
+}
+
+.footer-link2 {
+  margin: 0 5VW 0 5VW;
+}
+
+.middle_container {
+  margin: 50px 0;
+}
+
+.top_cloud {
+  position: absolute;
+  right: 0;
+  top: 50px;
+  animation: slide2 10s linear infinite;
+}
+
+.bottom_cloud {
+  position: absolute;
+  left: 0;
+  bottom: 300px;
+  margin-bottom: 2rem;
+  animation: slide 15s linear infinite;
+}
+
+@keyframes apple-translate {
+  0% {transform: translate(0);}
+  25% {transform: translate(-2VW);}
+  50% {transform: translate(2VW);}
+  100% {transform: translate(0);}
+}
+
+@keyframes slide {
+  0% {transform: translate(0);}
+  100% {transform: translate(92VW);}
+}
+
+@keyframes slide2 {
+  0% {transform: translate(0);}
+  100% {transform: translate(-100VW);}
+}
+
+.myButton {
+  background: #D3DEDC;
+  background-image: -webkit-linear-gradient(right, #D3DEDC, #4FBDBA);
+  background-image: -moz-linear-gradient(right, #D3DEDC, #4FBDBA);
+  background-image: -ms-linear-gradient(right, #D3DEDC, #4FBDBA);
+  background-image: -o-linear-gradient(right, #D3DEDC, #4FBDBA);
+  background-image: linear-gradient(to right, #D3DEDC, #4FBDBA);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.myButton:hover {
+  background: #4FBDBA;
+  background-image: -webkit-linear-gradient(left, #4FBDBA, #D3DEDC);
+  background-image: -moz-linear-gradient(left, #4FBDBA, #D3DEDC);
+  background-image: -ms-linear-gradient(left, #4FBDBA, #D3DEDC);
+  background-image: -o-linear-gradient(left, #4FBDBA, #D3DEDC);
+  background-image: linear-gradient(to right
+}
